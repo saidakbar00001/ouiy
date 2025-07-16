@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.play-btn {
+  background-color: #f4b000;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.hero {
+  background-image: url('./img/image\ 5.png'); /* Replace with correct background image */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.platforms {
+  margin-bottom: 20px;
+}
+
+.pc, .console {
+  padding: 10px 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pc {
+  background-color: #f4b000;
+  color: black;
+}
+
+.console {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+h1 {
+  background-color: rgba(255, 204, 0, 0.8);
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials img {
+  width: 25px;
+  margin-left: 10px;
+}
